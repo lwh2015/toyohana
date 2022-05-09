@@ -4,12 +4,14 @@
 </script>
 
 <template>
-  <router-link to="/hxx">胡小雄</router-link
-  ><router-link to="/ljf">卢嘉枫</router-link
-  ><router-link to="/lm">李鸣</router-link
-  ><router-link to="/wch">王春桦</router-link
-  ><router-link to="/yjh">余佳豪</router-link>
-  <router-view></router-view>
+  <router-link class="link" to="/hxx">胡小雄</router-link
+  ><router-link class="link" to="/ljf">卢嘉枫</router-link
+  ><router-link class="link" to="/lm">李鸣</router-link
+  ><router-link class="link" to="/wch">王春桦</router-link
+  ><router-link class="link" to="/yjh">余佳豪</router-link>
+  <div class="view">
+    <router-view></router-view>
+  </div>
 </template>
 
 <style>
@@ -20,5 +22,11 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.link {
+  margin: 0 30px;
+}
+.view{
+  margin: 20px 0;
 }
 </style>

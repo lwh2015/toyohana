@@ -8,6 +8,7 @@ import wch from "./view/wch/main.vue";
 import yjh from "./view/yjh/main.vue";
 
 const routes = [
+  {path:'/',redirect:'/hxx'},
   { path: "/hxx", component: hxx },
   { path: "/ljf", component: ljf },
   { path: "/lm", component: lm },
